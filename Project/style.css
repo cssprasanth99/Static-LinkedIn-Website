@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+.content-area{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.headerbg{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 5px 0;
+ 
+    
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-left img{
+    width: 45px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    background-color: #dce6f1;
+    margin-left: 10px;
+    width: 300px;
+    padding: 10px 0px 10px 20px;
+}
+.form input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 10px; ;
+}
+.form img{
+    width:20px;
+}
+
+.nav-icon{
+    width: 18px;
+}
+
+.list{
+    display: flex;
+
+}
+.list li{
+    list-style: none;
+    text-align: center;
+    padding: 0 10px;
+    border: 2px solid transparent;
+}
+.list li:hover{
+    border: 2px solid #dfdcdc;
+    border-radius: 10px;
+    background-color: #dfdcdc;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.border-right{
+    border-right: 1px solid black;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.bg-color{
+    background-color: #e9e5df;
+}
+.main-section{
+    display: flex;
+    padding: 25px 0;
+}
+/* .part1 {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 25%;
+} */
+.part1{
+    width: 20%;
+}
+.part2{
+    width: 50%;
+    margin: 0 10px 0 10px;
+}
+.part3{
+    width: 25%;
+}
+
+.hover:hover{
+    background-color: #e9e5df;
+}
+
+.part1-fisrtpart{
+    border: 2px solid #d9d9d9;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.part1-secondpart{
+    border: 2px solid #d9d9d9;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.part3-firstpart{
+    border: 2px solid #d9d9d9;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.part3-firstpart ul{
+    display: inline-block;
+    padding-left: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+.flex2{
+    display: flex;
+}
+.flex-space{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.part3-secondpart{
+    margin: 10px 0 10px 0;
+    border: 2px solid #d9d9d9;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.padding{
+    padding-left: 20px;
+}
+.padding-10{
+    padding-left: 10px;
+}
+.padding-bottom{
+    padding-bottom: 25px;
+}
+.part3-thirdpart{
+    border: 2px solid #d9d9d9;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.flex2 a{
+    display: inline-block;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    color: #000;
+    padding: 1px 40px;
+
+}
+.flex2 a:hover{
+    background-color: #e9e5df;
+}
+
+.part2-firstpart{
+    border: 2px solid #d9d9d9;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.form2{
+    padding-left: 20px;
+}
+.form2 input{
+    
+    width: 500px;
+    height: 40px;
+    border-radius: 40px;
+    padding: 2px 20px;
+    border: 1px solid black;
+}
+
+.part2-post1{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+.part2-post2{
+    margin-top: 20px; ;
+    background-color: #fff;
+    padding: 10px;
+}
+.like-btn{
+    border-radius: 50%;
+}
+.position{
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+.menu_bar{
+    position: relative;
+}
+.dropdown_menu {
+    display: none;
+}
+
+.menu_bar:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+}
+
